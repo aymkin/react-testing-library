@@ -1,5 +1,3 @@
-
-
 const username = 'freddy'
 typeof username === 'string'
 
