@@ -5,12 +5,14 @@
   "license": "GPLv3",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore .",
+    "format": "prettier --write --ignore-path .gitignore \"**/*.+(js|json)\""
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16",
     "@babel/core": "^7.14.0",
     "@babel/preset-env": "^7.14.1",
-    "eslint": "^7.26.0"
+    "eslint": "^7.26.0",
+    "prettier": "^2.2.1"
   }
 }
